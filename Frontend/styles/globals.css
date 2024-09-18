@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg1 {
+  background-image: url("https://res.cloudinary.com/dzqjryuld/image/upload/v1704706823/yassine-ait-tahit-oB1jFDKTPos-unsplash_yiu1rt.jpg");
+  background-size: cover;
+}
+
+.img {
+  pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: greenyellow;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.p-inputtext {
+  background-color: #f4f4f5;
+  color: black;
+  padding-left: 2em;
+  width: 100%;
+}
